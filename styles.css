@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(13, 255, 255, 0.671);
+}
+.barrrita{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    color: white;
+    display: flex;
+    padding:50px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.logo{
+    height: 150px;
+}
+
+li{
+    padding: 10px;
+}
