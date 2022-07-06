@@ -41,6 +41,12 @@ li{
     border-radius: 10px;
 }
 
+.title:hover{
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+
 .firstSection{
     background: linear-gradient(to left, #000046, #1cb5e0);
     margin-left: 70px;
